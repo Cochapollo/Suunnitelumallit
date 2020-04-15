@@ -1,4 +1,4 @@
-package Tehtävä_10_ChainOfResponsibility;
+package Suunnittelumallit.Tehtävä_10_ChainOfResponsibility;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -20,7 +20,7 @@ public class Main {
                 double sa = Double.parseDouble(new BufferedReader(new InputStreamReader(System.in)).readLine());
                 System.out.print("Please enter your preferred salary >");
                 double ra = Double.parseDouble(new BufferedReader(new InputStreamReader(System.in)).readLine());
-                manager.raiseRequest(new WageSlave(st, sa, ra));
+                manager.raiseRequest(new Worker(st, sa, ra));
             }
         } catch (Exception e) {
             System.exit(1);

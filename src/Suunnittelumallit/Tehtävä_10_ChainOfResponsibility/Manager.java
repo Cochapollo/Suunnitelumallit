@@ -1,8 +1,8 @@
-package Tehtävä_10_ChainOfResponsibility;
+package Suunnittelumallit.Tehtävä_10_ChainOfResponsibility;
 
 public class Manager extends RaiseSalary {
 
-    public void raiseRequest(WageSlave w) {
+    public void raiseRequest(Worker w) {
         double oldSalary = w.getSalary();
         if (w.getNewSalary() <= w.getSalary() * 1.02) {
             w.setSalary(w.getNewSalary());

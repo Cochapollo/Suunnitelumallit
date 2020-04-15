@@ -1,6 +1,6 @@
 package Suunnittelumallit.Tehtävä_6_Decorator.Decorator;
 
-import Tehtävä_6_Decorator.File.FileManager;
+import Suunnittelumallit.Tehtävä_6_Decorator.File.FileManager;
 
 import java.util.Base64;
 

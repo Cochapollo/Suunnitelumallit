@@ -1,12 +1,12 @@
-package Tehtävä_10_ChainOfResponsibility;
+package Suunnittelumallit.Tehtävä_10_ChainOfResponsibility;
 
-public class WageSlave {
+public class Worker {
 
     private String name;
     private double salary;
     private double newSalary;
 
-    public WageSlave(String name, double salary, double newSalary) {
+    public Worker(String name, double salary, double newSalary) {
         this.name = name;
         this.salary = salary;
         this.newSalary = newSalary;

@@ -1,9 +1,9 @@
 package Suunnittelumallit.Tehtävä_6_Decorator;
 
-import Tehtävä_6_Decorator.Decorator.Crypto;
-import Tehtävä_6_Decorator.Decorator.StringDecorator;
-import Tehtävä_6_Decorator.File.FileManager;
-import Tehtävä_6_Decorator.File.PepegaFileManager;
+import Suunnittelumallit.Tehtävä_6_Decorator.Decorator.Crypto;
+import Suunnittelumallit.Tehtävä_6_Decorator.Decorator.StringDecorator;
+import Suunnittelumallit.Tehtävä_6_Decorator.File.FileManager;
+import Suunnittelumallit.Tehtävä_6_Decorator.File.PepegaFileManager;
 
 public class Main {
 
