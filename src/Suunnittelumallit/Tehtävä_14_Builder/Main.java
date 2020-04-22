@@ -1,8 +1,8 @@
 package Suunnittelumallit.Tehtävä_14_Builder;
 
-import Tehtävä_14_Builder.Builder.BurgerBuilder;
-import Tehtävä_14_Builder.Builder.Hesburger;
-import Tehtävä_14_Builder.Builder.McDonalds;
+import Suunnittelumallit.Tehtävä_14_Builder.Builder.BurgerBuilder;
+import Suunnittelumallit.Tehtävä_14_Builder.Builder.Hesburger;
+import Suunnittelumallit.Tehtävä_14_Builder.Builder.McDonalds;
 
 public class Main {
 
