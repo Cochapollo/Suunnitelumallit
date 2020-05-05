@@ -1,9 +1,9 @@
 package Suunnittelumallit.Tehtävä_18_Prototype.Kellot;
 
-import Tehtävä_18_Prototype.Viisari.Minuutti;
-import Tehtävä_18_Prototype.Viisari.Sekunti;
-import Tehtävä_18_Prototype.Viisari.Tunti;
-import Tehtävä_18_Prototype.Viisari.Viisari;
+import Suunnittelumallit.Tehtävä_18_Prototype.Viisari.Minuutti;
+import Suunnittelumallit.Tehtävä_18_Prototype.Viisari.Sekunti;
+import Suunnittelumallit.Tehtävä_18_Prototype.Viisari.Tunti;
+import Suunnittelumallit.Tehtävä_18_Prototype.Viisari.Viisari;
 
 public class ShallowKello implements Kello, Runnable, Cloneable {
 

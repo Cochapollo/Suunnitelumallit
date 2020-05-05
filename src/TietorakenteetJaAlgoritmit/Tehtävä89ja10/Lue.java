@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package TietorakenteetJaAlgoritmit.Tehtävä8;
+package TietorakenteetJaAlgoritmit.Tehtävä89ja10;
 
 /**
  *

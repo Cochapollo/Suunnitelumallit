@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package TietorakenteetJaAlgoritmit.Tehtävä8;
+package TietorakenteetJaAlgoritmit.Tehtävä89ja10;
 
 /**
  *
@@ -13,9 +13,15 @@ public class Node {
     private String data;
     private BinaryTree left;
     private BinaryTree right;
+    private int nodeHeight;
 
-    public Node(String value) {
+    public Node(String value, int nodeHeight) {
         data = new String(value);
+        left = right = null;
+        this.nodeHeight = nodeHeight;
+    }
+    public Node(String value) {
+        data = value;
         left = right = null;
     }
     public  Node (String value, BinaryTree left, BinaryTree right) {
@@ -38,6 +44,7 @@ public class Node {
     public void setRight(BinaryTree tree) {
         right = tree;
     }
-
+    public int getNodeHeight() { return nodeHeight; }
+    public void setNodeHeight(int nodeHeight) { this.nodeHeight = nodeHeight; }
 
 }
